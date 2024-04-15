@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// import DarkMode from "./components/DarkMode";
+import Cart from "./components/Cart";
+import Search from "./components/Search";
+import UseEffect1 from "./components/UseEffect1";
+import UseEffect2 from "./components/UseEffect2";
+import UseEffect3 from "./components/UseEffect3";
+
+{/*note bài học: có 3 trường hợp useEffect:
+1: kg truyên dependecy: render xong thì gọi lại hoài lun(call back)
+2: dependecy là array empty: render xong thì gọi lại 1 lần duy nhất(call back)
+3:
+*/}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <DarkMode /> */}
+
+      {/* <Cart /> */}
+
+      {/* <Search /> */}
+
+      {/* <UseEffect1 /> */}
+
+      {/* <UseEffect2 /> */}
+
+      <UseEffect3 />
+    </>
   );
 }
 

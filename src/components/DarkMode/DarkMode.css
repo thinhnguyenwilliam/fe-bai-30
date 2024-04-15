@@ -1,0 +1,9 @@
+.box{
+    background-color: #fff;
+    color: #000;
+}
+
+.box--dark{
+    background-color: #000;
+    color: #fff;
+}
